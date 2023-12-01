@@ -19,7 +19,6 @@ public class Task4 {
 
                 // Check if the grade is 5
                 if (parts.length >= 3 && "5".equals(parts[2].trim())) {
-                    // Write the line to the output file
                     writer.write(line);
                     writer.newLine();
                 }
