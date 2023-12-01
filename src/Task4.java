@@ -17,7 +17,7 @@ public class Task4 {
                 // Split the line into parts (tab)
                 String[] parts = line.split("\t");
 
-                if (parts.length >= 2 && "5".equals(parts[2].trim())) {
+                if (parts.length >= 3 && "5".equals(parts[2].trim())) {
                     writer.write(line);
                     writer.newLine();
                 }
