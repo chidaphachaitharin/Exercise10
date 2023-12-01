@@ -14,11 +14,10 @@ public class Task4 {
 
             String line;
             while ((line = reader.readLine()) != null) {
-                // Split the line into parts
+                // Split the line into parts (tab)
                 String[] parts = line.split("\t");
 
-                // Check if the grade is 5
-                if (parts.length >= 3 && "5".equals(parts[2].trim())) {
+                if (parts.length >= 2 && "5".equals(parts[2].trim())) {
                     writer.write(line);
                     writer.newLine();
                 }
